@@ -1,4 +1,4 @@
-package com.uestc.leetcode.leetcode;
+package com.uestc.leetcode;
 
 /**
  * @description: <a href="https://leetcode.cn/problems/first-missing-positive/">...</a>
