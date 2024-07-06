@@ -42,12 +42,22 @@ public class _0160 {
 }
 
 
+// 定义单链表节点的类
 class ListNode {
-    int val;
-    ListNode next;
+    int val; // 节点的值
+    ListNode next; // 指向下一个节点的引用
 
-    ListNode(int x) {
-        val = x;
-        next = null;
+    // 无参构造函数
+    ListNode() {}
+
+    // 带一个参数的构造函数
+    ListNode(int val) {
+        this.val = val;
+    }
+
+    // 带两个参数的构造函数
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
 }
